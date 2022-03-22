@@ -1,4 +1,4 @@
-﻿# Big data course
+﻿# Data mining course
 
 - Members of the team:
 

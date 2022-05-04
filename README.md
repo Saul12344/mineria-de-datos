@@ -1,11 +1,13 @@
-﻿# Data mining course
+![logo](/images/tec.png)
+>**Tecnológico Nacional de México  
+Instituto Tecnológico Campus Tijuana  
+Ing. en informática/sistemas**  
+**Asignatura**  
+Minería de datos  
+**Semestre**  
+Febrero- Junio 2022  
+**Integrantes**  
+Munguia Silva Edgar Geovanny  
+López Higuera Saúl Alfredo
 
-- Members of the team:
 
-```
-Munguia Silva Edgar Geovanny 
-Lopez Higuera Saul Alfredo 
-
-``` 
-
-﻿# In this branch we will find all realated content from unit 1 of data mining course

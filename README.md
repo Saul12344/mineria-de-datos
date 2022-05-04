@@ -2,7 +2,7 @@
 
 ## Practice#1.  
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_2/practices/U2P1dm.pdf)  
-[.R File]()  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_2/practices/U2P1.R)  
 
 ## Steps.  
 
@@ -13,12 +13,14 @@
 ## 3.- Generate three plots with R that tell the story of the data, the first one be a scatter plot of points,the second that is a graph in facets and the third a graph that tells us something statistical like the distribution that the data has and that contains the layer themes.
 
 ## 3.1.- Dot scatter plot.  
-
+![logo](/dm_images/8.PNG)  
+![logo](/dm_images/8.1.PNG)  
 ## 3.2.- Facet graph.  
-
+![logo](/dm_images/9.PNG)  
+![logo](/dm_images/10.PNG)  
 ## 3.3.- Distribution graph.  
 
-
+![logo](/dm_images/11.PNG)  
 
 
   

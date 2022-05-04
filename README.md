@@ -31,14 +31,14 @@
 
 
 ## 1.- Start the ggplot library to be able to create and visualize our plot.  
-![logo](/dm_images/1.PNG)
+![logo](/dm_images/1.PNG)  
 
 ## 2.- Import the CSV file.  
-![logo](/dm_images/2.PNG)
+![logo](/dm_images/2.PNG)  
 csv<-read.csv(file.choose())
 
 ## 3.- We filter all the data, gender and name of the study.  
-![logo](/dm_images/3.PNG)
+![logo](/dm_images/3.PNG)  
 filtrogenero<-(csv$Genre=="action")|(csv$Genre=="adventure")|(csv$Genre=="animation")|(csv$Genre=="comedy")|(csv$Genre=="drama")
 
 filtroestudios<-csv$Studio %in% c("Buena Vista Studios","Fox","Paramount Pictures","Sony","Universal","WB")
@@ -50,18 +50,18 @@ filtroestudios
 
 ## 4.- Create a second dataframe based on filtered data.  
 ![logo](/dm_images/4.PNG)
-![logo](/dm_images/4.1.PNG)
+![logo](/dm_images/4.1.PNG)  
 csv2<-csv[filtrogenero & filtroestudios,]
 csv2
 
 ## 5.- Creation of the graph.  
-![logo](/dm_images/5.PNG)
+![logo](/dm_images/5.PNG)  
 graf<-ggplot(data=csv2,aes(x=Genre,y=Gross...US))+geom_jitter(aes(size=Budget...mill.,colour=Studio))+geom_boxplot(alpha=0.8,outlier.color=NA)+scale_size_continuous(range=c(1, 3))+xlab("Genre")+ylab("Gross % US")+ggtitle("Domestic Gross % by Genre")+theme(axis.title.x=element_text(colour="Blue",size=17),axis.title.y=element_text(colour="Blue",size=17),axis.text.x=element_text(size=12),axis.text.y=element_text(size=12),plot.title=element_text(size=22),legend.title=element_text(size=12),text=element_text(family="mono"))   
 
 
 ## 6.- Show the graph.  
 ![logo](/dm_images/6.PNG)
-![logo](/dm_images/6.1.PNG)
+![logo](/dm_images/6.1.PNG)  
 
 graf+ xlab("Genre") + ylab("Gross % US") + ggtitle("Domestic Gross % by Genre")+theme(axis.title.x=element_text(family="mono",
 color="Purple", size=18,face="bold"),axis.title.y = element_text(family = "mono",color = "Purple", size=18,face="bold"),

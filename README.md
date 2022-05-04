@@ -9,7 +9,7 @@
 ## 1-. Search for a data CSV source (up to you).  
 
 ## 2.- Read the data and analyse it using R.  
-
+![logo](/dm_images/7.PNG)  
 ## 3.- Generate three plots with R that tell the story of the data, the first one be a scatter plot of points,the second that is a graph in facets and the third a graph that tells us something statistical like the distribution that the data has and that contains the layer themes.
 
 ## 3.1.- Dot scatter plot.  

@@ -29,6 +29,11 @@
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_2/evaluation%20practice/evaluation%20practice%20unit2.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_2/evaluation%20practice/evaluation%20practice%20u2.R)  
 
+## Introduction.  
+In unit 2 we learned more about the origin of the graphs, about their grammar among other things, as well as the types of probability distributions and statistics, without forgetting that we learned to generate graphs in the R studio of point dispersion, graph in facets and statistical graphs.
+We continue with some things that we saw in unit 1 such as what it is to load csv files to use them as databases and also to install more packages.
+
+
 ## Steps.  
 
 
@@ -69,6 +74,17 @@ graf+ xlab("Genre") + ylab("Gross % US") + ggtitle("Domestic Gross % by Genre")+
 color="Purple", size=18,face="bold"),axis.title.y = element_text(family = "mono",color = "Purple", size=18,face="bold"),
 legend.justification = c(1,1),plot.title = element_text(family = "mono", 
 color="Black", size = 20,hjust=0.4,face="bold"))
+
+
+## Conclusions.
+
+Edgar Munguia: Working with a lot of data may be complicated, because most of the times, you will have to work with specific data, i mean, you will need to filter the data in order to analyze and interpret the respective data,that was what we learned in this practice, to filter, create and show specific data in a graphical interpretation, in this case, we completely ignored some data to focus in other data that we needed to analyze. 
+
+Saul Higuera: What we can do with data mining is impressive, in this unit we have to learn about more types of graphs, everything we have learned from rstudio seems very interesting to me, besides the way in which it can be graphed seems very useful to me with a tool as powerful as RStudio.  
+
+## Evidence video link (Youtube):  
+https://www.youtube.com/watch?v=WiNdIBujUA4
+
 
 
 

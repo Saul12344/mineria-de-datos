@@ -5,7 +5,64 @@
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P1U3.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P1U3.R)  
 
-**We import the csv file.**
+**We import the csv file and install the caTools package to take non-sequential random data.
+In the same way we must put the seed to be able to create the numbers.**
+~~~
+getwd()
+setwd("D:/Escuela/Semestre 9/Mineria de datos/DataMining/MachineLearning/SimpleLinearRegression")
+getwd()
+
+# Importing the dataset
+dataset <- read.csv('Salary_Data.csv')
+# Splitting the dataset into the Training set and Test set
+# Install.packages('caTools')
+library(caTools)
+set.seed(123)
+split <- sample.split(dataset$Salary, SplitRatio = 2/3)
+training_set <- subset(dataset, split == TRUE)
+test_set <- subset(dataset, split == FALSE)
+~~~
+
+**We will perform a regression of the lm or linear model with the relationship between salary and years of experience.
+Data prediction variable:**
+
+~~~
+# Fitting Simple Linear Regression to the Training set
+regressor = lm(formula = Salary ~ YearsExperience,
+               data = dataset)
+summary(regressor)
+
+# Predicting the Test set results
+y_pred = predict(regressor, newdata = test_set)
+~~~
+
+**Import of our ggplot library for our plotting of the data from
+Salary vs. Experience of Training Set and Test Set:
+Salary vs Experience of Training Set:**
+
+~~~
+# Visualising the Training set results
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x=training_set$YearsExperience, y=training_set$Salary),
+             color = 'red') +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            color = 'blue') +
+  ggtitle('Salary vs Experience (Training Set)') +
+  xlab('Years of experience') +
+  ylab('Salary')
+
+# Visualising the Test set results
+ggplot() +
+  geom_point(aes(x=test_set$YearsExperience, y=test_set$Salary),
+             color = 'red') +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            color = 'blue') +
+  ggtitle('Salary vs Experience (Test Set)') +
+  xlab('Years of experience') +
+  ylab('Salary')
+
+~~~
 
 
 **Practice #2.**  

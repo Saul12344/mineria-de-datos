@@ -5,6 +5,9 @@
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P1U3.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P1U3.R)  
 
+**We import the csv file.**
+
+
 **Practice #2.**  
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practica%202%2C%20unidad%203.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practice%202.R)  

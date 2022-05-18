@@ -2,8 +2,8 @@
 >**Unit 3, Data mining  
 
 **Practice #2**  
-[PDF link]()  
-[.R File]()  
+[PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practica%202%2C%20unidad%203.pdf)  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practice%202.R)  
 
 **Introduction**
 First, we need to load the CSV (it was provided by the teacher) and then we will start to analyse the data, once the data is fully loaded,we proceed to convert the states to categorical data in numbers, then we divide the dataframe in two with a random seed, this way, the data is distributed randomly. I did some minnor changes in the code, for example, i decided to use file.choose instead the provided code, because its easier for me using this way.  

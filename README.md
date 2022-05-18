@@ -64,6 +64,10 @@ ggplot() +
 
 ~~~
 
+**Output.**
+
+![logo](/images/1.PNG)  
+![logo](/images/2.PNG)  
 
 **Practice #2.**  
 [PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practica%202%2C%20unidad%203.pdf)  

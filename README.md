@@ -311,3 +311,58 @@ Multiple R-squared:  0.9448,	Adjusted R-squared:  0.9434
 F-statistic: 650.8 on 1 and 38 DF,  p-value: < 2.2e-16
 
 ~~~
+
+**Practice #3.**  
+[PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P3U3.pdf)  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/P3U3.R)  
+
+**We import the csv file.**
+~~~
+getwd()
+setwd("D:/Escuela/Semestre 9/Mineria de datos/DataMining/MachineLearning/LogisticRegression")
+getwd()
+# Importing the dataset
+dataset <- read.csv('Social_Network_Ads.csv')
+dataset <- dataset[, 3:5]
+
+~~~
+
+**Split the dataset into training and test set and install the caTools data package:**
+
+~~~
+# Splitting the dataset into the Training set and Test set
+# Install.packages('caTools')
+library(caTools)
+set.seed(123)
+split <- sample.split(dataset$Purchased, SplitRatio = 0.75)
+training_set <- subset(dataset, split == TRUE)
+test_set <- subset(dataset, split == FALSE)
+
+~~~
+
+**Feature Scale**
+
+~~~
+training_set[, 1:2] <- scale(training_set[, 1:2])
+test_set[, 1:2] <- scale(test_set[, 1:2])
+
+
+~~~
+**Logistic regression fits to the training set:**
+~~~
+classifier = glm(formula = Purchased ~ .,
+family = binomial,
+data = training_set)
+
+~~~
+
+**The results of the test suite are predicted:**
+~~~
+prob_pred = predict(classifier, type = 'response', newdata = test_set[-3])
+prob_pred
+
+~~~
+
+**Output.**
+
+![logo](/images/1.3.PNG)  

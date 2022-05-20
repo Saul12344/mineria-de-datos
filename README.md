@@ -45,7 +45,7 @@ We continue with some things that we saw in unit 1 such as what it is to load cs
 csv<-read.csv(file.choose())
 
 ## 3.- We filter all the data, gender and name of the study.  
-![logo](/dm_images/3.PNG)  
+~~~
 filtrogenero<-(csv$Genre=="action")|(csv$Genre=="adventure")|(csv$Genre=="animation")|(csv$Genre=="comedy")|(csv$Genre=="drama")
 
 filtroestudios<-csv$Studio %in% c("Buena Vista Studios","Fox","Paramount Pictures","Sony","Universal","WB")
@@ -53,7 +53,7 @@ filtroestudios<-csv$Studio %in% c("Buena Vista Studios","Fox","Paramount Picture
 filtrogenero
 
 filtroestudios
-
+~~~
 
 ## 4.- Create a second dataframe based on filtered data.  
 ![logo](/dm_images/4.PNG)

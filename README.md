@@ -441,7 +441,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 **Practice # 4.**  
 
 [PDF link]()  
-[.R File]()  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practice%234.R)  
 
 **Introduction.**  
 
@@ -517,7 +517,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 **Output.**  
 
-
+![output](/images/output.png)
 
 
 
@@ -528,7 +528,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 In the following image, we can see the analysis corresponding to the test set, with this model, we can see which of the records is the one that is closest to a certain point, in this case, we can see how close the salaries of the employees are with respect to the others and their respective ages.
 
 
-
+![conclusion](/images/conclusion.png)
 
 
 

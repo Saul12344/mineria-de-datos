@@ -440,7 +440,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 **Practice # 4.**  
 
-[PDF link]()  
+[PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practica%204%2C%20unidad%203.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/practice%234.R)  
 
 **Introduction.**  

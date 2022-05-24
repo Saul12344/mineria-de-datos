@@ -538,6 +538,7 @@ In the following image, we can see the analysis corresponding to the test set, w
 
 
 ## Introduction.  
+In this practice, the goal is to implement the classification model of Naive Bayes using a data set (provided by the teacher) and also implementing the library called e1071 using the naive bayes() function, once the classification is done, we will make an analysis of the mentioned data. Naive bayes its a mathematical formula coming from the probabilistic analysis, we will implement it into data analysis to display a relation (in terms of probability) of certain data.
 
 
 

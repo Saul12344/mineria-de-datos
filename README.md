@@ -531,4 +531,35 @@ In the following image, we can see the analysis corresponding to the test set, w
 ![conclusion](/images/conclusion.png)
 
 
+## Evaluation practice, unit 3.  
 
+[PDF link]()  
+[.R File]()  
+
+
+## Introduction.  
+
+
+
+## Code.  
+
+
+## Output.  
+
+
+
+## Conclusions.  
+
+
+
+## Edgar Munguia:  
+
+
+## Saul Higuera:  
+
+
+
+## Video link (Youtube):  
+
+
+## Repository link:  

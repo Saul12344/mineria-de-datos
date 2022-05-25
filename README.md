@@ -637,6 +637,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ## Conclusions.  
 
 ## Edgar Munguia:  
+We can see a few similarities between the two graphs, and also i can concluded, that the less data we have, the better results we will have (using this model). Also i can say, that stadistic is very useful in this kind of field of data, because we can get a lot of useful information, using this kind of algorithms. This analysis will make us able to determine which decisions to take or which not.
 
 ## Saul Higuera:  
 

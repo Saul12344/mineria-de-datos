@@ -640,7 +640,10 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 We can see a few similarities between the two graphs, and also i can concluded, that the less data we have, the better results we will have (using this model). Also i can say, that stadistic is very useful in this kind of field of data, because we can get a lot of useful information, using this kind of algorithms. This analysis will make us able to determine which decisions to take or which not.
 
 ## Saul Higuera:  
-
+This time I have to learn about naivebayes,
+is a simple probabilistic classifier with a strong assumption of independence.
+It often provides better classification accuracy on real-time datasets than any other classifier. It also requires a small amount of training data. The Naïve-Bayes classifier learns from the training data and then predicts the class of the test instance with the largest posterior probability.
+It seems to me a fairly accurate classifier.
 
 
 ## Video link (Youtube):  

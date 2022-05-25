@@ -534,7 +534,7 @@ In the following image, we can see the analysis corresponding to the test set, w
 ## Evaluation practice, unit 3.  
 
 [PDF link]()  
-[.R File]()  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/evaluation%203.R)  
 
 
 ## Introduction.  

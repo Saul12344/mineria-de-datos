@@ -533,7 +533,7 @@ In the following image, we can see the analysis corresponding to the test set, w
 
 ## Evaluation practice, unit 3.  
 
-[PDF link]()  
+[PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/evaluation%20practice/Pr%C3%A1ctica%20evaluatoria%2C%20unidad%203%2C%20mineria%20de%20datos.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_3/practices/evaluation%203.R)  
 
 
@@ -647,6 +647,7 @@ It seems to me a fairly accurate classifier.
 
 
 ## Video link (Youtube):  
+https://www.youtube.com/watch?v=aJg0fxQn150  
 
 
 ## Repository link:  

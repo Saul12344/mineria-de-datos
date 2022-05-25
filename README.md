@@ -627,9 +627,9 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ~~~
 
 ## Outputs.  
-## Training set
+## Training set  
 ![training_set](/images/Rplot.png)  
-##Test set
+## Test set  
 ![test_set](/images/Rplot01.png)  
 
 

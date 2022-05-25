@@ -7,8 +7,9 @@
 <H2><p align="Center">López Higuera Saúl Alfredo #18210493</p></H2>
 <H2><p align="Center">Munguia Silva Edgar Geovanny #17212344</p></H2>
 ## Evaluative practice#3
+
 ## Code
-  ~~~
+~~~
 ## Install necessary libraries.
 
 install.packages ("e1071")
@@ -87,4 +88,4 @@ plot(set[, -3], main = 'Naive Bayes (Test set)',
 contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
-  ~~~
+~~~

@@ -626,16 +626,17 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 ~~~
 
-## Output.  
+## Outputs.  
+## Training set
+![training_set](/images/Rplot.png)  
+##Test set
+![test_set](/images/Rplot01.png)  
 
 
 
 ## Conclusions.  
 
-
-
 ## Edgar Munguia:  
-
 
 ## Saul Higuera:  
 
@@ -645,3 +646,4 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 
 ## Repository link:  
+https://github.com/Saul12344/mineria-de-datos

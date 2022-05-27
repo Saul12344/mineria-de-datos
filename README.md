@@ -47,6 +47,12 @@ clusplot(dataset,
 ~~~
 
 ## Output.  
+## These were the results using elbow method to determine the number of clusters (3).  
+![elbow](/images/elbow.PNG)  
+
+## And these were the clusters we got using the k means method.  
+
+![clusters](/images/clusters.PNG)  
 
 
 

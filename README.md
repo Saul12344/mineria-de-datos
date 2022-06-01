@@ -1,6 +1,6 @@
 ## Evaluation practice unit 4, data mining course.  
 
-[PDF link]()  
+[PDF link](https://github.com/Saul12344/mineria-de-datos/blob/unit_4/evaluation%20practice/Pr%C3%A1ctica%20evaluatoria%2C%20unidad%204%2C%20mineria%20de%20datos.pdf)  
 [.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_4/evaluation%20practice/u4%20final.R)  
 
 ## Introduction.  

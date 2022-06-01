@@ -1,7 +1,7 @@
 ## Evaluation practice unit 4, data mining course.  
 
 [PDF link]()  
-[.R File]()  
+[.R File](https://github.com/Saul12344/mineria-de-datos/blob/unit_4/evaluation%20practice/u4%20final.R)  
 
 ## Introduction.  
 This practice, is the last one from data mining course, the main goal, it is to use k means in a dataframe to categorize data with no labels into groups, before starting, lets define what the algorithm means: Is a clustering method, which aims to divide a set of n observations into k groups in which each observation belongs to the group whose mean value is closest.  

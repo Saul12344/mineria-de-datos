@@ -66,7 +66,8 @@ Using this algorithm, allow us to cluster the data and find points with less err
 
 
 ## Saul Higuera:  
-
+This is a super useful method. Remember that the basic idea behind partitioning methods, such as k-means clustering, is to define the clusters in such a way that the total variation within the cluster is minimized.
+The Elbow method analyzes the total WSS as a function of the number of groups.
 
 ## Video link (Youtube)  
 https://www.youtube.com/watch?v=bvDxIgLKr00

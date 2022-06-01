@@ -69,7 +69,7 @@ Using this algorithm, allow us to cluster the data and find points with less err
 
 
 ## Video link (Youtube)  
-
+https://www.youtube.com/watch?v=bvDxIgLKr00
 
 ## GitHub repository link:  
 https://github.com/Saul12344/mineria-de-datos

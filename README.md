@@ -27,7 +27,10 @@ plot(1:10,
 # Fitting K-Means to the dataset
 set.seed(29)
 kmeans = kmeans(x = dataset, centers = 3)
-y_kmeans = kmeans$cluster
+kmeans
+
+ y_kmeans = kmeans$cluster
+ y_kmeans
 
 # Visualising the clusters
 install.packages('cluster')
@@ -43,7 +46,6 @@ clusplot(dataset,
          main = paste('Clusters of iris'),
          xlab = 'Lenght',
          ylab = 'Width')
-
 ~~~
 
 ## Output.  
@@ -60,6 +62,7 @@ clusplot(dataset,
 
 
 ## Edgar Munguia:  
+Using this algorithm, allow us to cluster the data and find points with less errors, i mean, this model will want precision over all things, this is a good thing if we want to cluster data with the minimal error possible. Once again, spark its a powerful tool to work with big data, as we can see, it allow us to work with a lot of info and also allow us to work with less errors that using other tools.
 
 
 ## Saul Higuera:  
